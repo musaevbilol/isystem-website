@@ -1,0 +1,75 @@
+
+/*---------- Swiper2 --------- */
+
+
+
+
+/**************************************/
+.swiper-title{
+  font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 35px;
+letter-spacing: 0.025em;
+color: #000000;
+}
+
+.swiper {
+    position: static;
+  }
+
+/* 
+  .swiper-pagination {
+    position: absolute;
+    top: 2602px;
+    width: 50px;
+    left: 48.2%;
+  } */
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 9px 10px;
+    background-image: url("https://i.postimg.cc/ZqdzPBYW/right.png");
+  }
+  .swiper-button-prev-custom {
+    background-image: url("https://i.postimg.cc/15kHnfdC/back.png");
+  }
+  .swiper-button-prev-custom::after,
+  .swiper-button-next-custom::after {
+    display: none;
+  }
+  .swiper-slide img{
+   border-radius: 10px;
+  }
+  
+
+@media (max-width:360px){
+  .swiper-title{
+    font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  }
+  img{
+    border-radius: 10px;
+  }
+}
+
+
+  @media (max-width:375px){
+  
+  
+  }
+  @media (max-width:768px){
+    
+  }
+
+  

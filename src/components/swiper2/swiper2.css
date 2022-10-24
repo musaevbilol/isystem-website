@@ -1,0 +1,442 @@
+.swiper {
+  position: static;
+}
+.title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+/* .swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: 0.3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+} */
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  border: 1px solid black;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 9px 10px;
+  background-image: url("https://i.postimg.cc/ZqdzPBYW/right.png");
+}
+.swiper-button-prev-custom {
+  background-image: url("https://i.postimg.cc/15kHnfdC/back.png");
+}
+.swiper-button-prev-custom::after,
+.swiper-button-next-custom::after {
+  display: none;
+}
+
+.instagram {
+  cursor: pointer;
+  background: #f8f8f8;
+  border: 0.5px solid #666666;
+  border-radius: 10px;
+  width: 164px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 25px;
+  gap: 2px;
+}
+.telegram {
+  cursor: pointer;
+  background: #f8f8f8;
+  border: 0.5px solid #666666;
+  border-radius: 10px;
+  width: 164px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 25px;
+  gap: 2px;
+}
+
+.instagram img {
+  width: 20px;
+  height: 20px;
+}
+
+.frame-swiper2 {
+  width: 800px;
+  height: 351px;
+  background: #f0f1f1;
+  border-radius: 10px;
+}
+
+.swiper-h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.swiper-h6 span {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.swiper-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Link-instag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 25px;
+  gap: 10px;
+  background: #f8f8f8;
+  border: 0.5px solid #666666;
+  border-radius: 10px;
+}
+
+.frame {
+  margin-left: 260px;
+  width: 800px;
+  height: 351px;
+  background: #f0f1f1;
+  border-radius: 10px;
+}
+
+.frame1 {
+  margin-left: 460px;
+  width: 800px;
+  height: 351px;
+  background: #f0f1f1;
+  border-radius: 10px;
+}
+.frame2 {
+  margin-left: 660px;
+  width: 800px;
+  height: 351px;
+  background: #f0f1f1;
+  border-radius: 10px;
+}
+@media (max-width: 360px) {
+  .title {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.025em;
+
+    color: #000000;
+  }
+  .frame1{
+    margin-left: -500px;
+  }
+
+  .frame-swiper2 {
+    margin-left: 10px;
+    width: 250px;
+    height: 300px;
+  }
+  .frame-swiper2 img {
+    width: 35px;
+    height: 35px;
+  }
+  .swiper-h6 {
+    margin-left: -1px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .photo-text {
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  .swiper-p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: -14px;
+  }
+  .instagram {
+    margin-top: -20px;
+    width: 113px;
+    height: 30px;
+    background: #f8f8f8;
+    border: 0.5px solid #666666;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+  }
+  .instagram img {
+    width: 20px;
+    height: 20px;
+  }
+  .instagram svg {
+    width: 63px;
+    height: 16px;
+  }
+  /* swiper page2----------------------------- */
+  .frame {
+    width: 266px;
+    height: 300px;
+  }
+  .image img {
+    width: 35px;
+    height: 35px;
+    margin-top: -26px;
+  }
+  .telegram {
+    margin-top: -20px;
+    width: 113px;
+    height: 30px;
+    background: #f8f8f8;
+    border: 0.5px solid #666666;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+  }
+  .telegram img {
+    width: 20px;
+    height: 20px;
+  }
+  .telegram svg {
+    width: 63px;
+    height: 16px;
+  }
+
+  .image h6 {
+    margin-top: -25px;
+  }
+}
+
+@media (max-width: 375px) {
+  .title {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.025em;
+
+    color: #000000;
+  }
+
+  .frame-swiper2 {
+    width: 366px;
+    height: 300px;
+  }
+  .frame {
+    width: 366px;
+    height: 300px;
+  }
+  .frame1{
+  
+    width: 366px;
+    height: 300px;
+  }
+  .frame-swiper2 img {
+    width: 35px;
+    height: 35px;
+  }
+  .swiper-h6 {
+    margin-left: -1px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .photo-text {
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  .swiper-p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: -14px;
+  }
+  .instagram {
+    margin-top: -20px;
+    width: 113px;
+    height: 30px;
+    background: #f8f8f8;
+    border: 0.5px solid #666666;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+  }
+  .instagram img {
+    width: 20px;
+    height: 20px;
+  }
+  .instagram svg {
+    width: 63px;
+    height: 16px;
+  }
+  /* swiper page2----------------------------- */
+  .frame {
+    width: 266px;
+    height: 300px;
+    margin-left: 100px;
+  }
+  .image img {
+    width: 35px;
+    height: 35px;
+    margin-top: -26px;
+  }
+  .telegram {
+    margin-top: -20px;
+    width: 113px;
+    height: 30px;
+    background: #f8f8f8;
+    border: 0.5px solid #666666;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+  }
+  .telegram img {
+    width: 20px;
+    height: 20px;
+  }
+  .telegram svg {
+    width: 63px;
+    height: 16px;
+  }
+
+  .image h6 {
+    margin-top: -25px;
+  }
+}
+@media (max-width: 414px) {
+  .title {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.025em;
+
+    color: #000000;
+  }
+
+  .frame-swiper2 {
+    width: 266px;
+    height: 300px;
+  }
+  .frame-swiper2 img {
+    width: 35px;
+    height: 35px;
+  }
+  .swiper-h6 {
+    margin-left: -1px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .photo-text {
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  .swiper-p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: -14px;
+  }
+  .instagram {
+    margin-top: -20px;
+    width: 113px;
+    height: 30px;
+    background: #f8f8f8;
+    border: 0.5px solid #666666;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+  }
+  .instagram img {
+    width: 20px;
+    height: 20px;
+  }
+  .instagram svg {
+    width: 63px;
+    height: 16px;
+  }
+  /* swiper page2----------------------------- */
+  .frame {
+    width: 266px;
+    height: 300px;
+    margin-left: 90px;
+  }
+  .image img {
+    width: 35px;
+    height: 35px;
+    margin-top: -26px;
+  }
+  .telegram {
+    margin-top: -20px;
+    width: 113px;
+    height: 30px;
+    background: #f8f8f8;
+    border: 0.5px solid #666666;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+  }
+  .telegram img {
+    width: 20px;
+    height: 20px;
+  }
+  .telegram svg {
+    width: 63px;
+    height: 16px;
+  }
+
+  .image h6 {
+    margin-top: -25px;
+  }
+}
+/* @media (max-width:768px){
+  .frame-swiper2{
+    width: 560px;
+  }
+  .frame{
+    width: 560px;
+  }
+} */
